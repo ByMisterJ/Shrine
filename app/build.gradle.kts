@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    api("com.google.android.material:material:1.1.0-alpha06")
     implementation("com.google.android.material:material:1.13.0")
     implementation("com.google.code.gson:gson:2.13.2")
     implementation(libs.androidx.core.ktx)

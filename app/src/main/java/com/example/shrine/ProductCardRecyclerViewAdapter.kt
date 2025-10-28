@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.shrine.network.ProductEntry
 
+
 /**
  * Adapter used to show a simple grid of products.
  */
