@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Shrine</string>
     <string name="shr_app_name">Shrine</string>
     <string name="shr_hint_username">Username</string>
     <string name="shr_hint_password">Password</string>
