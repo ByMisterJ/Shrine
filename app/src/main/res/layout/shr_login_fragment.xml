@@ -22,7 +22,6 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="48dp"
             android:layout_marginBottom="16dp"
-            android:tint="?android:attr/textColorPrimary"
             app:srcCompat="@drawable/shr_logo"
             android:contentDescription="@string/shr_logo_content_description"  />
 
@@ -32,26 +31,25 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="132dp"
             android:text="@string/shr_app_name"
-            android:textAppearance="@style/TextAppearance.Shrine.Title" />
+            android:textAllCaps="true"
+            android:textSize="16sp" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.Shrine.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:hint="@string/shr_hint_username">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:maxLines="1" />
+                android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_text_input"
-            style="@style/Widget.Shrine.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:hint="@string/shr_hint_password"
             app:errorEnabled="true">
 
@@ -68,7 +66,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/next_button"
-                style="@style/Widget.Shrine.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -77,7 +74,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/cancel_button"
-                style="@style/Widget.Shrine.Button.TextButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="12dp"
@@ -87,5 +84,9 @@
                 android:text="@string/shr_button_cancel" />
 
         </RelativeLayout>
+        <!-- Snippet from "Add text fields" section goes here. -->
+
+        <!-- Snippet from "Add buttons" section goes here. -->
+
     </LinearLayout>
 </ScrollView>
