@@ -3,6 +3,7 @@ package com.google.codelabs.mdc.kotlin.shrine
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.shrine.R
 import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
 
 import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry

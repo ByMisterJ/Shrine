@@ -5,6 +5,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 import com.android.volley.toolbox.NetworkImageView
+import com.example.shrine.R
 
 class ProductCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 

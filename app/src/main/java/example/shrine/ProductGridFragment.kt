@@ -33,11 +33,11 @@ class ProductGridFragment : Fragment() {
         // Set up the tool bar
         (activity as AppCompatActivity).setSupportActionBar(view.app_bar)
         view.app_bar.setNavigationOnClickListener(NavigationIconClickListener(
-                activity!!,
+                requireActivity(),
                 view.product_grid,
                 AccelerateDecelerateInterpolator(),
-                ContextCompat.getDrawable(context!!, R.drawable.shr_branded_menu), // Menu open icon
-                ContextCompat.getDrawable(context!!, R.drawable.shr_close_menu))) // Menu close icon
+                ContextCompat.getDrawable(requireContext(), R.drawable.shr_branded_menu), // Menu open icon
+                ContextCompat.getDrawable(requireContext(), R.drawable.shr_close_menu))) // Menu close icon
 
         // Set up the RecyclerView
         view.recycler_view.setHasFixedSize(true)

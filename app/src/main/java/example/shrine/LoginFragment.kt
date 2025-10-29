@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.shrine.R
 import kotlinx.android.synthetic.main.shr_login_fragment.*
-import kotlinx.android.synthetic.main.shr_login_fragment.view.*
+import layout.shr_login_fragment.view.*
 
 /**
  * Fragment representing the login screen for Shrine.
@@ -40,10 +40,7 @@ class LoginFragment : Fragment() {
         return view
     }
 
-    /*
-        In reality, this will have more complex logic including, but not limited to, actual
-        authentication of the username and password.
-     */
+
     private fun isPasswordValid(text: Editable?): Boolean {
         return text != null && text.length >= 8
     }
